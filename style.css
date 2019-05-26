@@ -1,0 +1,156 @@
+p {
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 14px;
+}
+
+p.a {
+    font-weight: 400;
+}
+  
+
+p.b {
+    font-weight: 700;
+}
+  
+
+p.c {
+    font-weight: 800;
+}
+
+
+p.d {
+    font-weight: bold;
+}
+
+
+body{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ITL{
+    background: #7c7c7c;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+ 
+}
+
+.ITL1{
+    color: #ff9fcc;
+    font-family: "Nanum Gothic", sans-serif;
+    letter-spacing: -2px; 
+}
+
+.ITL2{
+    color: #cccccc;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    color: #dbe4f0;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: #000000;
+}
+
+.activer {
+    background-color: black;
+}
+
+
+.img{
+    position: relative;
+    background-image: url("제출 이미지/3.png");                                                               
+    height: 700px;
+    background-size: cover;
+}
+
+.img-cover{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(73, 56, 56, 0.7);                                                                 
+   z-index:1;
+}
+
+.img .content{
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);                                                                   
+     font-size:5rem;
+     color: white;
+     z-index: 2;
+     text-align: center;
+     line-height: 1.5%
+}
+
+.img .content1{
+    font-size: 300px
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #353538;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.PRO{
+    background-color: #454549;
+    padding : 20px;
+}
+
+.PRO2{
+    color: rgb(230, 76, 122);
+}
+
+.PRO3{
+    color: rgb(204, 204, 204);
+    letter-spacing: -1px;
+    line-height: 30px;
+    font-size: 5px;
+}
+
+.sub{
+    background: #e2e1e0;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+}
+
+.subt{
+    color: #3a3633;
+    font-family: "Nanum Gothic", sans-serif;
+    letter-spacing: -2px;
+}
+
+.subbox{
+    position:relative;
+	width:200px;
+    height:200px;
+    padding: 10px;
+    margin-left: 10px;
+    display: inline;
+
+}
+
+.sns{
+    margin-top: 120px;
+    margin-bottom: 50px;
+    text-align: center;
+}
